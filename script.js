@@ -1,8 +1,1 @@
-function serverx() {
- var x = document.getElementById("serverclose");
- x.style.display = "none";
-}
-function serverz() {
- var x = document.getElementById("serverclose");
- x.style.display = "block";
-}
+var _0x2fc7=["\x73\x65\x72\x76\x65\x72\x63\x6C\x6F\x73\x65","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x64\x69\x73\x70\x6C\x61\x79","\x73\x74\x79\x6C\x65","\x6E\x6F\x6E\x65","\x62\x6C\x6F\x63\x6B"];function serverx(){var _0xfa5bx2=document[_0x2fc7[1]](_0x2fc7[0]);_0xfa5bx2[_0x2fc7[3]][_0x2fc7[2]]= _0x2fc7[4]}function serverz(){var _0xfa5bx2=document[_0x2fc7[1]](_0x2fc7[0]);_0xfa5bx2[_0x2fc7[3]][_0x2fc7[2]]= _0x2fc7[5]}
