@@ -14427,13 +14427,14 @@ a.panel-block:hover, label.panel-block:hover {
 	-ms-user-select: none;
 	user-select: none;
 	position: fixed;
-	bottom: 0;
-	left: 0;
+	bottom: 5px;
+	left: 5px;
 	color: #fff;
 	background: rgba(0, 0, 0, .5);
 	padding: 6px 10px;
 	white-space: pre;
 	font-family: ubuntu;
+	font-family: 'Noto Sans', sans-serif;
 	font-size: 16px;
 }
 #leaderboard-hud {
@@ -14458,7 +14459,8 @@ a.panel-block:hover, label.panel-block:hover {
 }
 #leaderboard-positions {
 	color: #fff;
-	font-family: ubuntu;
+	/* font-family: ubuntu; */
+	font-family: 'Noto Sans', sans-serif;
 	text-align: right;
 	overflow: hidden;
 	white-space: pre;
@@ -14474,8 +14476,8 @@ a.panel-block:hover, label.panel-block:hover {
 	white-space: nowrap;
 	line-height: 22px;
 	vertical-align: middle;
-	font-family: ubuntu;
-	font-weight: 600;
+	/* font-family: ubuntu; */
+	font-weight: 400;
 }
 .lb-mass {
 	font-size: 13px;
@@ -14485,7 +14487,7 @@ a.panel-block:hover, label.panel-block:hover {
 	color: #fff;
 	line-height: 22px;
 	vertical-align: middle;
-	font-family: ubuntu;
+	/* font-family: ubuntu; */
 }
 .lb-position {
 	font-size: 13px;
@@ -14495,7 +14497,6 @@ a.panel-block:hover, label.panel-block:hover {
 	color: #fff;
 	line-height: 22px;
 	vertical-align: middle;
-	font-family: oswald;
 }
 #leaderboard-chart {
 	float: right;
@@ -14584,7 +14585,8 @@ a.panel-block:hover, label.panel-block:hover {
 	color: #fff;
 	font-size: 12px;
 	padding: 4px 8px;
-	background: rgba(0, 0, 0, .5);
+	background-color: rgba(10,10,10,0.8);
+	font-family: 'Noto Sans', sans-serif;
 }
 #minimap-hud {
 	cursor: default;
@@ -14596,11 +14598,12 @@ a.panel-block:hover, label.panel-block:hover {
 	user-select: none;
 	bottom: 5px;
 	position: fixed;
-	background: rgba(0, 0, 0, .5);
+	background-color: rgba(10,10,10,0.6);
 	right: 5px;
 	width: 200px;
 	height: 200px;
-	font-family: ubuntu;
+	/* font-family: ubuntu; */
+	font-family: 'Noto Sans', sans-serif;
 }
 #minimap-nodes {
 	position: absolute;
