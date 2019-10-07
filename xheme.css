@@ -14705,7 +14705,7 @@ a.panel-block:hover, label.panel-block:hover {
 	background: rgba(0, 0, 0, .5);
 	color: #fff;
 	padding: 5px 6px;
-	font-family: raleway;
+	font-family: ubuntu;
 	font-weight: 500;
 	display: inline-block;
 	border-radius: 2px;
@@ -14810,7 +14810,7 @@ a.panel-block:hover, label.panel-block:hover {
 	position: relative;
 	left: 50%;
 	transform: translateX(-50%);
-	font-family: raleway;
+	font-family: ubuntu;
 	font-size: 13px;
 	font-weight: 600!important;
 	transition: all .5s;
@@ -15011,7 +15011,7 @@ input::placeholder, select::placeholder {
 .tl-player-mass {
 	display: inline-block;
 	font-size: 14px;
-	padding: 0px 6px;
+	padding: 2px 6px;
 	background: #333;
 }
 .tl-player-nick {
